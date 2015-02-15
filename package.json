@@ -1,0 +1,9 @@
+{
+  "name": "wifi-password",
+  "version": "0.1.0",
+  "description": "People ask you for the Wi-Fi password. Answer quickly.",
+  "global": "1",
+  "install": "install -b wifi-password.sh ${PREFIX:-/usr/local}/bin/wifi-password",
+  "scripts": [ "wifi-password.sh" ]
+}
+
