@@ -9,6 +9,14 @@ People ask you for the Wi-Fi password. Answer quickly. **OSX only**.
 
 **1. Install it**
 
+With [bpkg](https://github.com/bpkg/bpkg):
+
+```
+$ bpkg install rauchg/wifi-password
+```
+
+or with `curl`:
+
 ```
 curl -L https://raw.github.com/rauchg/wifi-password/master/wifi-password.sh -o ~/bin/wifi-password && chmod +x ~/bin/wifi-password
 ```
