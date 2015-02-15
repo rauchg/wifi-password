@@ -9,8 +9,12 @@ if [ ! -f $airport ]; then
   exit 1
 fi
 
-# by default we are verbose
-verbose=1
+# by default we are verbose (unless non-tty)
+if [ -t 1 ]; then
+  verbose=1
+else
+  verbose=
+fi
 
 # usage info
 usage() {
