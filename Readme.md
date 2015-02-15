@@ -2,8 +2,7 @@
 # wifi-password
 
 People ask you for the Wi-Fi password. Answer quickly. **OSX only**.
-
-Check out [RReverser/WiFi-Password](https://github.com/RReverser/WiFi-Password) for Windows analog.
+[Windows version](https://github.com/RReverser/WiFi-Password).
 
 ![](https://i.cloudup.com/uUo8iSbKXRh/km6iJT.gif)
 
