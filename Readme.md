@@ -16,6 +16,12 @@ With [bpkg](https://github.com/bpkg/bpkg):
 $ bpkg install rauchg/wifi-password
 ```
 
+With [Homebrew](https://github.com/Homebrew/homebrew):
+
+```
+$ brew install wifi-password
+```
+
 or with `curl`:
 
 ```
