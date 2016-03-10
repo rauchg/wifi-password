@@ -45,6 +45,12 @@ To get it for a specific SSID:
 $ wifi-password <ssid>
 ```
 
+To put it straight in your clipboard for pasting elsewhere (OS X only):
+
+```
+$ wifi-password | pbcopy
+```
+
 ## License
 
 MIT
