@@ -22,6 +22,14 @@ With [Homebrew](https://github.com/Homebrew/homebrew):
 $ brew install wifi-password
 ```
 
+With [Antigen](https://github.com/zsh-users/antigen):
+
+Add `antigen bundle rauchg/wifi-password` to your `.zshrc` with your other antigen commands
+
+With [Zgen](https://github.com/tarjoilija/zgen)
+
+Add `zgen load rauchg/wifi-password` to your `.zshrc` to your `.zshrc`.
+
 or with `curl`:
 
 ```
