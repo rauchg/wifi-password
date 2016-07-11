@@ -28,7 +28,7 @@ Add `antigen bundle rauchg/wifi-password` to your `.zshrc` with your other antig
 
 With [Zgen](https://github.com/tarjoilija/zgen)
 
-Add `zgen load rauchg/wifi-password` to your `.zshrc` to your `.zshrc`.
+Add `zgen load rauchg/wifi-password` to your `.zshrc` with your other zgen commands
 
 or with `curl`:
 
