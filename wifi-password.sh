@@ -75,7 +75,7 @@ fi
 sleep 2
 
 # source: http://blog.macromates.com/2006/keychain-access-from-shell/
-pwd="`security find-generic-password -ga \"$ssid\" 2>&1 >/dev/null`"
+pwd="`security find-generic-password -D 'AirPort network password' -ga \"$ssid\" 2>&1 >/dev/null`"
 
 if [[ $pwd =~ "could" ]]; then
   echo "ERROR: Could not find SSID \"$ssid\"" >&2
