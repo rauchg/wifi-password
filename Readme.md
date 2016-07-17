@@ -1,7 +1,7 @@
 
 # wifi-password
 
-People ask you for the Wi-Fi password. Answer quickly. **OSX only**.
+People ask you for the Wi-Fi password. Answer quickly. **macOS only**.
 [Windows version](https://github.com/RReverser/WiFi-Password).
 
 ![](https://i.cloudup.com/uUo8iSbKXRh/km6iJT.gif)
