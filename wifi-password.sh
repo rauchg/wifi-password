@@ -16,6 +16,9 @@ else
   verbose=
 fi
 
+# by default dont copy password to clipboard
+copy=
+
 # usage info
 usage() {
   cat <<EOF
@@ -26,6 +29,7 @@ usage() {
     -q, --quiet      Only output the password.
     -V, --version    Output version
     -h, --help       This message.
+    -c, --copy       Copy password to clipboard.
     --               End of options
 
 EOF
@@ -44,6 +48,10 @@ while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do
     -h | --help )
       usage
       exit
+      ;;
+    -c | --copy )
+      verbose=
+      copy=1
       ;;
   esac
   shift
@@ -94,6 +102,9 @@ fi
 if [ $verbose ]; then
   echo "\033[96m ✓ \"$pwd\" \033[39m"
   echo ""
+elif [ $copy ]; then
+  echo $pwd | pbcopy
+  echo "\033[96m ✓ Password copied to clipboard"
 else
   echo $pwd
 fi
