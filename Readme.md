@@ -53,7 +53,7 @@ To get it for a specific SSID:
 $ wifi-password <ssid>
 ```
 
-To put it straight in your clipboard for pasting elsewhere (OS X only):
+To put it straight in your clipboard for pasting elsewhere (macOS only):
 
 ```
 $ wifi-password | pbcopy
