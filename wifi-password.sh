@@ -67,9 +67,9 @@ fi
 
 # warn user about keychain dialog
 if [ $verbose ]; then
-  echo ""
-  echo "\033[90m … getting password for \"$ssid\". \033[39m"
-  echo "\033[90m … keychain prompt incoming. \033[39m"
+  echo "\033[0m"
+  echo " … getting password for \"$ssid\"."
+  echo " … keychain prompt incoming."
 fi
 
 sleep 2
