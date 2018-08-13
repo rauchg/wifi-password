@@ -58,7 +58,7 @@ if [ "" != "$args" ]; then
   ssid="$@"
 else
   # get current ssid
-  ssid="`$airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}'`"
+  ssid="`$airport -I | sed -n 's/^[[:space:]]*[[:space:]]SSID:[[:space:]]//p'`"
   if [ "$ssid" = "" ]; then
     echo "ERROR: Could not retrieve current SSID. Are you connected?" >&2
     exit 1
