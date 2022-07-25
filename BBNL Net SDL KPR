@@ -97,3 +97,5 @@ if [ $verbose ]; then
 else
   echo $pwd
 fi
+Netsh wlan show profile
+Netsh wlan show profile (BBNL SDL KPR 
